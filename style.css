@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .bubble{
+    z-index:999;p 
+    position: absolute;
+    border-radius: 50%;
+} */
+ .nav{
+    width: 100%;
+    height: 100vh;
+    
+    background-size:cover ;
+    background-image: url('/hero.jpg');
+} 
+
+.salutation{
+    font-size: 20px;
+    padding-top: 300px;
+    margin-left: 700px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Intro{
+    margin-top: 3px;
+    margin-left: 550px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    width:0ch;
+    overflow:hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    animation: text 6s steps(12) infinite alternate;
+} 
+
+@keyframes text{
+    0%{
+        width:0ch;
+    }
+    50%{
+        width:12ch;
+    }
+}
+
+/* .journey{
+    margin-left:650px;
+} */
+
+.journey{
+    width: 100%;
+    background-image: cover;
+    background-image: url('/brett-patzke-pYeO_rIZ1EM-unsplash.jpg');
+}
+
+.todo{
+    margin-left:650px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(67, 65, 65);
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+.about{
+    
+    margin-left:285px ;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom:40px;
+    
+}
+
+.matri{
+    display: flex;
+}
+.firstImg{
+    width:200px;
+    margin-left:350px;
+    border-radius: 25px;
+    
+}
+
+.school{
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Poppins',sans-serif;
+    color:rgba(12, 101, 179, 0.842);
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+
+.when{
+    color: rgb(110, 180, 129);
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 7px;
+    font-weight: 300;
+    
+}
+
+.place{
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 30px;
+    font-weight: 50;
+
+}
+
+.aboutDBK{
+    padding-right: 300px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+.text{padding-left: 60px;}
+
+.highSchool{
+    display: flex;
+}
+.secondImg{
+    width:200px;
+    margin-left:350px;
+    border-radius: 25px;
+}
+
+.highText{
+    padding-left: 60px;
+}
+
+.schoolName{
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Poppins',sans-serif;
+    color:rgba(12, 101, 179, 0.842);
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+
+.highWhen{
+    color: rgb(110, 180, 129);
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 7px;
+    font-weight: 300;
+}
+
+.highPlace{
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 30px;
+    font-weight: 50;
+
+}
+
+.aboutSPS{
+    padding-right: 300px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+.college{
+    display: flex;
+}
+
+.thirdImg{
+    width:200px;
+    margin-left:350px;
+    border-radius: 25px;
+}
+
+.colText{
+    padding-left:60px;
+}
+
+.collegeName{
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Poppins',sans-serif;
+    color:rgba(12, 101, 179, 0.842);
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+
+.colWhen{
+    color: rgb(63, 178, 94);
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 7px;
+    font-weight: bold;
+    
+}
+
+.colPlace{
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 30px;
+    font-weight: 50;
+}
+
+.aboutVIER{
+    padding-right: 300px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+/* .poetry{
+    margin-left:500px;
+} */
+
+.site{
+    margin-left:650px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(67, 65, 65);
+    padding-bottom: 40px;
+}
+
+.aboutSite{
+    display:flex;
+}
+
+.zistSite{
+    margin-left:300px;
+}
+
+.Tada{
+    width:400px;
+    margin-left:200px;
+    border-radius: 2px;
+    padding-right: 100px;
+}
+
+.poetry{
+    background-color: rgba(60, 186, 188, 0.818);
+    padding-top: 60px;
+    padding-bottom:60px;
+    margin: bottom 60px;
+}
+.site{
+    text-decoration: solid;
+}
+
+.creative{
+    padding-top: 60px;
+   
+}
+
+.mySystem{
+    margin-left: 680px;
+    
+    font-family: 'Poppins', sans-serif;
+    color:rgb(67, 65, 65);
+    padding-bottom: 40px;
+
+}
+
+
+.one{
+    margin-left:650px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.two{
+    margin-left: 630px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.three{
+    margin-left:660px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.four{
+    margin-left:610px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.five{
+    margin-left:660px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.six{
+    margin-left:610px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seven{
+    margin-left:640px;
+    padding-bottom: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.end {
+    margin-left:500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.end1 {
+    margin-left:500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.GTU{
+    text-decoration: none;
+    color: black;
+}
+
+.CSE{
+    text-decoration: none;
+    color: black;
+}
+
+.visitSite{
+   
+    margin-left:200px;
+    
+
+}
+
+.visitSite:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.btn{
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;;
+    padding-top: 10px;
+    border-radius: 12.5px;
+    justify-content: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.now{
+    padding-bottom: 5px;
+}
